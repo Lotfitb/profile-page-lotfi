@@ -1,0 +1,122 @@
+  h1 {
+    color: #2E53DF;
+    font-size: 40;
+    font-family: 'Bebas Neue', cursive;
+    margin: auto;
+    letter-spacing: 10px;
+  }
+
+  h2 {
+    color: #0A66C2;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  h3 {
+    color: #0A66C2;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  #creations-visuelles {
+    color: #0A66C2;
+  }
+
+  h4 {
+    color: #0A66C2;
+  }
+
+  body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    background-image: url(images/cover\ profilevf.png);
+  }
+
+
+  .card-white {
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 20px 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .container {
+    width: 700px;
+    margin: 10px auto;
+  }
+
+  #mypicture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .btn-blue {
+    background-color: #0A66C2;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600px;
+    font-family: 'Lato', sans-serif;
+    padding: 15px 20px;
+  }
+
+
+  a:hover {
+    color: black;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center center;
+    margin: ;
+  }
+
+
+
+  .list-inline li {
+    display: inline;
+  }
+
+  .list-inline i {
+    font-size: 50px;
+    color: #0A66C2;
+    letter-spacing: 30px;
+  }
+
+  .list-inline i:hover {
+    color: black;
+  }
+
+
+  .intro {
+    margin-bottom: 30px;
+  }
+
+  .list-inline {
+    margin-bottom: 30px;
+  }
+
+  .video {
+    margin-bottom: 30px;
+  }
+
+  .cards-inline {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+    margin-bottom: 50px;
+  }
